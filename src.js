@@ -17,7 +17,7 @@ app.set('view engine','hbs')
 hbs.registerPartials(parpath)
 
 
-app.get('/index',(req,res)=>{
+app.get('/',(req,res)=>{
     res.render('index',{
         title:'Weather',
         body:'This Page shows Weather io',
