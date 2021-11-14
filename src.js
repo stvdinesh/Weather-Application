@@ -6,6 +6,8 @@ const forecast=require('./forecast')
 console.log(forecast)
 
 const app=express()
+const port=process.env.PORT || 3000
+
 const parpath=path.join(__dirname,'./partials')
 const viewspath=path.join(__dirname,'./views')
 
@@ -67,7 +69,7 @@ geocode(req.query.address,(error,{latitude,longitude,location})=>
 })
 })
 })
-app.listen(3000, () =>
+app.listen(port, () =>
 {
-    console.log('Server is up on port 3000')
+    console.log('Server is up on port'+ port)
 })
