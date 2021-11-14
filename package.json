@@ -13,5 +13,14 @@
     "hbs": "^4.1.2",
     "request": "^2.88.2"
   },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stvdinesh/Weather-Application.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stvdinesh/Weather-Application/issues"
+  },
+  "homepage": "https://github.com/stvdinesh/Weather-Application#readme",
   "description": ""
 }

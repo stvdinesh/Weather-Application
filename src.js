@@ -71,5 +71,5 @@ geocode(req.query.address,(error,{latitude,longitude,location})=>
 })
 app.listen(port, () =>
 {
-    console.log('Server is up on port'+ port)
+    console.log('Server is up on port')
 })
